@@ -1,0 +1,185 @@
+@import "../../App.scss";
+
+.small-screens {
+  background-color: rgba(47, 47, 47, 0.1);
+  width: 100%;
+
+  @include laptop {
+    display: none;
+  }
+
+  .navbar {
+    z-index: 1000;
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5rem;
+      width: 100%;
+
+      @include mobile {
+        padding: 1rem;
+        width: 100%;
+      }
+
+      .logo {
+        display: block;
+
+        img {
+          border-radius: 50%;
+        }
+
+        img {
+          display: block;
+          width: 3.5rem;
+          height: auto;
+
+          @include mobile {
+            width: 3.2rem;
+          }
+        }
+      }
+
+      .toggleButton {
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 50%;
+        background-color: #fdfce9;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+
+        @include mobile {
+          width: 2.5rem;
+          height: 2.5rem;
+        }
+
+        button {
+          background-color: #fdfce9;
+          color: #3d3d3d;
+          border: none;
+
+          .times {
+            width: 23px;
+            height: 23px;
+            border: none;
+            z-index: 10000;
+            position: fixed;
+            top: 3em;
+            right: 3em;
+
+            @include mobile {
+              top: 2.3em;
+              right: 1.8em;
+            }
+          }
+        }
+      }
+    }
+
+    .bg {
+      background-color: #f6f6f6;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      position: fixed;
+      width: 100vw;
+      height: screen;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      padding-top: 5rem;
+      gap: 5rem;
+      z-index: 1000;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+
+      .navigationItems {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        flex-basis: 100%;
+
+        li {
+          list-style: none;
+          display: flex;
+          justify-content: center;
+          font-size: 1.7rem;
+          font-weight: 500;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          color: #3d3d3d;
+          cursor: pointer;
+
+          @include mobile {
+            font-size: 1.2rem;
+          }
+        }
+
+        button {
+          display: flex;
+          padding: 0.7rem 1.5rem;
+          background-image: linear-gradient(to right, #888888 0%, #f5e14f 100%);
+          color: #3d3d3d;
+          justify-content: center;
+          align-items: center;
+          gap: 0.25rem;
+          font-size: 1.7rem;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          border: none;
+          border-radius: 6.25rem;
+          cursor: pointer;
+
+          @include mobile {
+            font-size: 1.2rem;
+          }
+        }
+      }
+
+      .socialIcons {
+        flex: 1;
+        display: flex;
+        width: 100%;
+        flex-basis: 20%;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 0 0 1rem 0;
+        color: #4f4f4f;
+
+        @include mobile {
+          padding: 0 0 0.7rem 0;
+        }
+
+        ul {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          width: 80%;
+
+          li {
+            display: flex;
+            list-style: none;
+            font-size: 2.8rem;
+
+            @include mobile {
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+
+      &.hidden {
+        display: none;
+      }
+    }
+  }
+}
