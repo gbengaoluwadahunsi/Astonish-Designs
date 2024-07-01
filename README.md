@@ -9,7 +9,7 @@ Welcome to the Astonish Design Website repository! This project uses Vite and Re
 ✅PFolder Structure
 
 # Features
-✅Modern UI/UX: Intuitive and visually appealing user interface.
+✅Modern UI/UX: Intuitive and visually appealing user interface\n.
 ✅PResponsive Design: Optimized for various screen sizes and devices.
 ✅Fast Loading: Utilizes Vite for rapid development and build processes.
 ✅PDynamic Content: Fetch and display dynamic content using React.
@@ -18,8 +18,8 @@ Welcome to the Astonish Design Website repository! This project uses Vite and Re
 To get started with this project, follow these steps:
 
 1. Clone the repository:
-git clone https://github.com/yourusername/fashion-design-website.git
-cd fashion-design-website
+git clone https://github.com/gbengaoluwadahunsi/Astonish-Designs.git
+cd Astonish-design-website
 
 2. Install dependencies:
 npm install
