@@ -14,7 +14,6 @@ Welcome to the Astonish Design Website repository! This project uses Vite and Re
 ✅Usage
 
 
-✅Folder Structure
 
 # Features
 ✅Modern UI/UX: Intuitive and visually appealing user interface.
