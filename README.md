@@ -5,28 +5,28 @@ Welcome to the Astonish Design Website repository! This project uses Vite and Re
 ✅Project Overview
 
 
-✅PFeatures
+✅Features
 
 
-✅PInstallation
+✅Installation
 
 
-✅PUsage
+✅Usage
 
 
-✅PFolder Structure
+✅Folder Structure
 
 # Features
 ✅Modern UI/UX: Intuitive and visually appealing user interface.
 
 
-✅PResponsive Design: Optimized for various screen sizes and devices.
+✅Responsive Design: Optimized for various screen sizes and devices.
 
 
 ✅Fast Loading: Utilizes Vite for rapid development and build processes.
 
 
-✅PDynamic Content: Fetch and display dynamic content using React.
+✅Dynamic Content: Fetch and display dynamic content using React.
 
 # Installation
 To get started with this project, follow these steps:
@@ -34,20 +34,20 @@ To get started with this project, follow these steps:
 1. Clone the repository:
 
 
-git clone https://github.com/gbengaoluwadahunsi/Astonish-Designs.git
+   git clone https://github.com/gbengaoluwadahunsi/Astonish-Designs.git
 
 
-cd Astonish-design-website
+   cd Astonish-design-website
 
-3. Install dependencies:
-
-   
-npm install
-
-5. Start the development server:
+2. Install dependencies:
 
    
-npm run dev
+   npm install
+
+3. Start the development server:
+
+   
+    npm run dev
 
 
 # Usage
