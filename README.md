@@ -1,5 +1,5 @@
 # Astonish Design Website
-Welcome to the Astonish Design Website repository! This project uses Vite and React, providing a modern and scalable template for building web applications. This README will guide you through the project's setup, structure, and functionalities.
+Welcome to the Astonish Design Fashion Website repository! This project uses Vite and React, providing a modern and scalable template for building web applications. This README will guide you through the project's setup, structure, and functionalities.
 
 # Table of Contents
 ✅Project Overview
